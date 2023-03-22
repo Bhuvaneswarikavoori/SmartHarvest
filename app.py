@@ -35,7 +35,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 with st.container():
     # Add an image above the text with custom width and round shape
     st.markdown(
-        f'<img src="path/to/your/image.png" width="150" class="rounded-image"/>', unsafe_allow_html=True
+        f'<img src="Farmer.png.jpeg" width="150" class="rounded-image"/>', unsafe_allow_html=True
     )
 
     # Define the app title and layout
