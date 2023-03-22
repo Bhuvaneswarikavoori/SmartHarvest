@@ -34,7 +34,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 
 with st.container():
     # Add an image above the text with custom width and round shape
-    st.image("path/to/your/image.png", use_column_width=True")
+    st.image("path/to/your/image.png", use_column_width=True)
 
     # Define the app title and layout
     st.title("**Welcome to SmartHarvest!**")
