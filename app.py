@@ -8,8 +8,30 @@ from sklearn.preprocessing import StandardScaler
 classifier = load('naive_bayes_model.joblib')
 scaler = load('scaler.joblib')
 
+# Define custom CSS for the app
+custom_css = """
+<style>
+    body {
+        background-color: lightblue;
+    }
+
+    h1 {
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+    p {
+        font-family: 'Arial', sans-serif;
+        font-size: 18px;
+    }
+</style>
+"""
+
+st.markdown(custom_css, unsafe_allow_html=True)
+
+# Add an image above the text
+st.image("https://www.alamy.com/happy-indian-family-in-agricultural-field-image388141284.html", use_column_width=True)
+
 # Define the app title and layout
-st.set_page_config(page_title="SmartHarvest", page_icon=":seedling:", layout="wide", initial_sidebar_state="collapsed", background_color="#E6F1F6")
 st.title("**Welcome to SmartHarvest!**")
 st.write("*Provide the soil conditions to get a crop recommendation*:")
 
