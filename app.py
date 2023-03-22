@@ -35,7 +35,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 with st.container():
     # Add an image above the text with custom width and round shape
     st.markdown(
-    f'<img src="https://www.alamy.com/portrait-of-happy-indian-farmer-with-arms-outstretched-in-rapeseed-agricultural-field-image230603167.html/150" width="150" class="rounded-image"/>', unsafe_allow_html=True
+    f'<img src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638892233/EducationHub/photos/crops-growing-in-thailand.jpg" width="150" class="rounded-image"/>', unsafe_allow_html=True
 )
 
 
