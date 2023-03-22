@@ -9,6 +9,7 @@ classifier = load('naive_bayes_model.joblib')
 scaler = load('scaler.joblib')
 
 # Define the app title and layout
+st.set_page_config(page_title="SmartHarvest", page_icon=":seedling:", layout="wide", initial_sidebar_state="collapsed", background_color="#E6F1F6")
 st.title("**Welcome to SmartHarvest!**")
 st.write("*Provide the soil conditions to get a crop recommendation*:")
 
