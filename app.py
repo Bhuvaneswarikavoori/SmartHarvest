@@ -9,8 +9,8 @@ classifier = load('naive_bayes_model.joblib')
 scaler = load('scaler.joblib')
 
 # Define the app title and layout
-st.title("*Welcome to SmartHarvest*")
-st.write("Provide the soil conditions to get a crop recommendation:")
+st.title("**Welcome to SmartHarvest**")
+st.write("*Provide the soil conditions to get a crop recommendation*:")
 
 # Collect user input
 nitrogen = st.number_input("Nitrogen (%)", value=25.0, step=0.1)
@@ -26,4 +26,4 @@ if st.button("Predict"):
     input_values = np.array([[nitrogen, phosphorous, potassium, temperature, humidity, ph, rainfall]])
     scaled_input_values = scaler.transform(input_values)
     predicted_crop = classifier.predict(scaled_input_values)
-    st.write(f"The recommended crop for the given soil condition is: {predicted_crop[0]}")
+    st.write(f"The recommended crop for the given soil condition is: *{predicted_crop[0]}*")
