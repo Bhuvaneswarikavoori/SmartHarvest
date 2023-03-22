@@ -9,7 +9,7 @@ classifier = load('naive_bayes_model.joblib')
 scaler = load('scaler.joblib')
 
 # Define the app title and layout
-st.title("**Welcome to SmartHarvest**")
+st.title("**Welcome to SmartHarvest!**")
 st.write("*Provide the soil conditions to get a crop recommendation*:")
 
 # Collect user input
