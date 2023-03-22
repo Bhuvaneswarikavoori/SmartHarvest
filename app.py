@@ -12,7 +12,7 @@ scaler = load('scaler.joblib')
 custom_css = """
 <style>
     body {
-        background-color: lightblue;
+        background-color: red;
     }
 
     h1 {
