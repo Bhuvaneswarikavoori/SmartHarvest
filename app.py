@@ -29,7 +29,7 @@ custom_css = """
 st.markdown(custom_css, unsafe_allow_html=True)
 
 # Add an image above the text
-st.image("https://www.alamy.com/happy-indian-family-in-agricultural-field-image388141284.html", use_column_width=True)
+st.image("Farmer.png.jpng", use_column_width=True)
 
 # Define the app title and layout
 st.title("**Welcome to SmartHarvest!**")
